@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery slider layout</title>
+<script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+<script src="js.js"></script>
+<style>
+body{
+	margin:0;
+}
+div#container{
+	width:100%;
+	background-color:yellow;
+	overflow:hidden;
+}
+#sliderwrap{
+	width:4320px;
+	height:100%;
+	position:relative;
+	background-color:green;
+}
+
+.slidesection{
+	width:1440px;
+	height:100%;
+	background-color:#0CC;
+	float:left;
+}
+
+.content{
+	max-width: 500px;
+	margin: 10% auto;
+	color: black;
+	
+}
+.content p{
+	font-size: 10px;
+}
+</style>
+</head>
+<body>
+<div id="container">
+	<div id="sliderwrap">
+		<div class="slidesection"> 
+			<div class="content">
+				<img src="Koala.jpg" width="500" alt="koala">
+				<h1>lorem Ipsum dolor sud amed</h1>
+				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur varius felis nec mi facilisis, sit amet hendrerit enim lacinia. Proin lacinia enim in sapien aliquam cursus. Nam pellentesque tellus sit amet eleifend ultrices. Fusce eu velit gravida est hendrerit consequat id quis enim. Cras eu risus massa. Suspendisse mollis suscipit maximus. Vivamus ac tellus ut nulla feugiat pharetra sit amet in leo. Proin finibus scelerisque ex eleifend tempus. Quisque egestas eget leo et tempor. Fusce ornare, turpis scelerisque elementum tempus, sem nisl suscipit magna, finibus imperdiet mi nulla sit amet ex. Nulla id sodales sem. In tincidunt varius dictum. Curabitur consectetur bibendum purus, at egestas nibh interdum vel. 
+				</p>
+			</div> 
+		</div>
+		<div class="slidesection" style="background-color:red;">b</div>
+		<div class="slidesection">k</div>
+	</div>
+</div>
+<div style="bottom:10px; right:10px; position:fixed;width:100px;height:100px;">
+<button id="lefts">&lt;</button>
+<button id="rights">&gt;</button>
+</div>
+</body>
+</html>
