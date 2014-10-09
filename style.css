@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2014-10-09, 13:05:20
+    Author     : Viper
+*/
+
+
+body{
+	margin:0;
+}
+div#container{
+	width:100%;
+	background-color:yellow;
+	overflow:hidden;
+}
+#sliderwrap{
+	width:4320px;
+	height:100%;
+	position:relative;
+	background-color:green;
+}
+
+.slidesection{
+	width:1440px;
+	height:100%;
+	background-color:#0CC;
+	float:left;
+}
+
+.content{
+	max-width: 500px;
+	margin: 10% auto;
+	color: black;
+	
+}
+.content p{
+	font-size: 10px;
+}
